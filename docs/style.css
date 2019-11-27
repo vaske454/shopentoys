@@ -16,6 +16,7 @@ html{
         padding-top: 6rem;
         padding-bottom: 6rem;
     }
+    .slide-hide-on-mobile { display: none; }
 }
 .jumbotron p:last-child {
     margin-bottom: 0;
