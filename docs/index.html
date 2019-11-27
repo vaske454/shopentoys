@@ -22,28 +22,27 @@
     <meta property="og:description" content="Omiljena prodavnica igračaka za vaše mališane!" />
     <meta property="og:image" content="https://vaske.dx.rs/images/facebookicon.png" />
 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!--    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">-->
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="style.css">-->
     <script src="https://kit.fontawesome.com/8cb2a46c23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.min.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#main-nav" data-offset="58">
 
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="main-nav">
         <a class="navbar-brand" href="#">
             <img src="images/logo.jpg" width="32" height="32" class="d-inline-block align-top" alt="Shopen Toys Logo">
             Shopen
         </a>
-
         <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
                 class="fas fa-bars fa-1x"></i></span></button>
-
         <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <!-- Links -->
-            <ul class="navbar-nav  justify-content-center">
+            <ul class="navbar-nav nav justify-content-center">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Naslovna <span class="sr-only">(current)</span></a>
                 </li>
@@ -64,23 +63,24 @@
 
 <main>
     <section id="image-slider">
+        <h2 class="d-none">Slajder sa našim igračkama</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/kucica.jpg" class="img-fluid" data-color="lightblue" alt="Kucica za lutke">
+                    <img class="d-block w-100 img-fluid" src="images/kucica.jpg" data-color="lightblue" alt="Kucica za lutke">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/dinosaurus.jpg" class="img-fluid" data-color="firebrick" alt="Second Image">
+                    <img class="d-block w-100 img-fluid" src="images/dinosaurus.jpg" data-color="firebrick" alt="Second Image">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/plisanezivotinje.jpg" class="img-fluid" data-color="violet" alt="Third Image">
+                    <img class="d-block w-100 img-fluid" src="images/plisanezivotinje.jpg" data-color="violet" alt="Third Image">
                 </div>
             </div>
             <!-- Controls -->
