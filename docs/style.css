@@ -16,7 +16,7 @@ html{
         padding-top: 6rem;
         padding-bottom: 6rem;
     }
-    #cr { display: none; }
+    #carouselExampleIndicators { display: none; }
 }
 .jumbotron p:last-child {
     margin-bottom: 0;
