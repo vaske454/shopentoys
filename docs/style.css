@@ -16,6 +16,9 @@ html{
         padding-top: 6rem;
         padding-bottom: 6rem;
     }
+    .carousel-indicators{
+        display:none; !important;
+    }
 }
 .jumbotron p:last-child {
     margin-bottom: 0;
